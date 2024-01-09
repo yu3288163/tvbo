@@ -1,0 +1,439 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tluo.cc"
+4    android:versionCode="1"
+5    android:versionName="3.3.8" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:7:5-79
+12-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:8:5-76
+13-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+14-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:9:5-10:43
+14-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:9:22-83
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:11:5-80
+15-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:11:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:12:5-81
+16-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:12:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:13:5-79
+17-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:13:22-76
+18    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+18-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:14:5-83
+18-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:14:22-80
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:15:5-75
+19-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:15:22-72
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:16:5-68
+20-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:16:22-65
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:7:5-79
+21-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:7:22-76
+22    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+22-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:18:5-19:47
+22-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:18:22-70
+23    <uses-permission android:name="android.permission.GET_TASKS" />
+23-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:20:5-68
+23-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:20:22-65
+24
+25    <uses-feature
+25-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:151:5-154:40
+26        android:name="android.software.leanback"
+26-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:152:9-49
+27        android:required="false" />
+27-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:153:9-33
+28    <uses-feature
+28-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:155:5-157:36
+29        android:name="android.hardware.touchscreen"
+29-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:156:9-52
+30        android:required="false" />
+30-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:157:9-33
+31    <uses-feature
+31-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:158:5-160:36
+32        android:name="android.hardware.location.gps"
+32-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:159:9-53
+33        android:required="false" />
+33-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:160:9-33
+34    <uses-feature
+34-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:161:5-163:36
+35        android:name="android.hardware.bluetooth"
+35-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:162:9-50
+36        android:required="false" />
+36-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:163:9-33
+37
+38    <uses-permission android:name="android.permission.WAKE_LOCK" />
+38-->[:player] /Users/xiezekai/Desktop/20230616/播放器/1021/chatv/player/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-68
+38-->[:player] /Users/xiezekai/Desktop/20230616/播放器/1021/chatv/player/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:22-65
+39    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+39-->[com.lzy.net:okgo:3.0.4] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/9c8eca11690e2fd119f56c1468db7ca8/jetified-okgo-3.0.4/AndroidManifest.xml:29:5-84
+39-->[com.lzy.net:okgo:3.0.4] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/9c8eca11690e2fd119f56c1468db7ca8/jetified-okgo-3.0.4/AndroidManifest.xml:29:22-81
+40
+41    <application
+41-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:22:5-149:19
+42        android:name="com.github.tvbox.osc.base.App"
+42-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:23:9-33
+43        android:allowBackup="true"
+43-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:24:9-35
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.5.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/AndroidManifest.xml:24:18-86
+45        android:banner="@drawable/app_banner"
+45-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:25:9-46
+46        android:configChanges="orientation|keyboardHidden|screenSize"
+46-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:26:9-70
+47        android:debuggable="true"
+48        android:hardwareAccelerated="true"
+48-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:27:9-43
+49        android:icon="@drawable/app_icon"
+49-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:28:9-42
+50        android:label="@string/app_name"
+50-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:29:9-41
+51        android:largeHeap="true"
+51-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:30:9-33
+52        android:networkSecurityConfig="@xml/network_security_config"
+52-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:31:9-69
+53        android:supportsRtl="true"
+53-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:32:9-35
+54        android:theme="@style/AppTheme.NoActionBar"
+54-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:33:9-52
+55        android:usesCleartextTraffic="true" >
+55-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:34:9-44
+56
+57        <!-- 下面两个是TalkingData统计id和渠道 -->
+58        <meta-data
+58-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:37:9-64
+59            android:name="TD_APP_ID"
+59-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:37:20-44
+60            android:value="" />
+60-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:37:45-61
+61        <meta-data
+61-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:38:9-68
+62            android:name="TD_CHANNEL_ID"
+62-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:38:20-48
+63            android:value="" />
+63-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:38:49-65
+64
+65        <activity
+65-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:39:9-47:20
+66            android:name="com.github.tvbox.osc.ui.activity.StartActivity"
+66-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:40:13-54
+67            android:screenOrientation="sensorLandscape" >
+67-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:41:13-56
+68            <intent-filter>
+68-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:42:13-46:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:43:17-69
+69-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:43:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:44:17-77
+71-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:44:27-74
+72                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+72-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:45:17-86
+72-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:45:27-83
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:48:9-50:59
+76            android:name="com.github.tvbox.osc.ui.activity.HomeActivity"
+76-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:49:13-53
+77            android:screenOrientation="sensorLandscape" />
+77-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:50:13-56
+78        <activity
+78-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:51:9-53:59
+79            android:name="com.github.tvbox.osc.ui.activity.LivePlayActivity"
+79-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:52:13-57
+80            android:screenOrientation="sensorLandscape" />
+80-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:53:13-56
+81        <activity
+81-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:54:9-56:59
+82            android:name="com.github.tvbox.osc.ui.activity.DetailActivity"
+82-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:55:13-55
+83            android:screenOrientation="sensorLandscape" />
+83-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:56:13-56
+84        <activity
+84-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:57:9-59:59
+85            android:name="com.github.tvbox.osc.ui.activity.PlayActivity"
+85-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:58:13-53
+86            android:screenOrientation="sensorLandscape" />
+86-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:59:13-56
+87        <activity
+87-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:60:9-62:59
+88            android:name="com.github.tvbox.osc.ui.activity.PushActivity"
+88-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:61:13-53
+89            android:screenOrientation="sensorLandscape" />
+89-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:62:13-56
+90        <activity
+90-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:63:9-65:59
+91            android:name="com.github.tvbox.osc.ui.activity.SearchActivity"
+91-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:64:13-55
+92            android:screenOrientation="sensorLandscape" />
+92-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:65:13-56
+93        <activity
+93-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:66:9-68:59
+94            android:name="com.github.tvbox.osc.ui.activity.FastSearchActivity"
+94-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:67:13-59
+95            android:screenOrientation="sensorLandscape" />
+95-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:68:13-56
+96        <activity
+96-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:69:9-71:59
+97            android:name="com.github.tvbox.osc.ui.activity.SettingActivity"
+97-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:70:13-56
+98            android:screenOrientation="sensorLandscape" />
+98-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:71:13-56
+99        <activity
+99-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:72:9-74:59
+100            android:name="com.github.tvbox.osc.ui.activity.HistoryActivity"
+100-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:73:13-56
+101            android:screenOrientation="sensorLandscape" />
+101-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:74:13-56
+102        <activity
+102-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:75:9-77:59
+103            android:name="com.github.tvbox.osc.ui.activity.CollectActivity"
+103-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:76:13-56
+104            android:screenOrientation="sensorLandscape" />
+104-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:77:13-56
+105        <activity
+105-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:78:9-80:59
+106            android:name="com.github.tvbox.osc.ui.activity.UserActivity"
+106-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:79:13-53
+107            android:screenOrientation="sensorLandscape" />
+107-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:80:13-56
+108        <activity
+108-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:81:9-83:59
+109            android:name="com.github.tvbox.osc.ui.activity.VipCardActivity"
+109-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:82:13-56
+110            android:screenOrientation="sensorLandscape" />
+110-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:83:13-56
+111        <activity
+111-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:84:9-86:59
+112            android:name="com.github.tvbox.osc.ui.activity.AboutActivity"
+112-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:85:13-54
+113            android:screenOrientation="sensorLandscape" />
+113-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:86:13-56
+114        <activity
+114-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:87:9-89:59
+115            android:name="com.github.tvbox.osc.ui.activity.VipActivity"
+115-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:88:13-52
+116            android:screenOrientation="sensorLandscape" />
+116-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:89:13-56
+117        <activity
+117-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:90:9-92:59
+118            android:name="com.github.tvbox.osc.ui.activity.KamActivity"
+118-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:91:13-52
+119            android:screenOrientation="sensorLandscape" />
+119-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:92:13-56
+120        <activity
+120-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:93:9-95:59
+121            android:name="com.github.tvbox.osc.ui.activity.WebViewActivity"
+121-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:94:13-56
+122            android:screenOrientation="sensorLandscape" />
+122-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:95:13-56
+123        <activity
+123-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:96:9-98:59
+124            android:name="com.github.tvbox.osc.ui.activity.ScreensaverActivity"
+124-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:97:13-60
+125            android:screenOrientation="sensorLandscape" />
+125-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:98:13-56
+126        <activity
+126-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:99:9-101:59
+127            android:name="com.github.tvbox.osc.ui.activity.MyBanner"
+127-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:100:13-49
+128            android:screenOrientation="sensorLandscape" />
+128-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:101:13-56
+129        <activity
+129-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:102:9-104:59
+130            android:name="com.github.tvbox.osc.ui.activity.MessageActivity"
+130-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:103:13-56
+131            android:screenOrientation="sensorLandscape" />
+131-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:104:13-56
+132        <activity
+132-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:105:9-107:59
+133            android:name="com.github.tvbox.osc.ui.activity.ExchangeActivity"
+133-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:106:13-57
+134            android:screenOrientation="sensorLandscape" />
+134-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:107:13-56
+135        <activity
+135-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:108:9-110:59
+136            android:name="com.github.tvbox.osc.ui.activity.AppsActivity"
+136-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:109:13-53
+137            android:screenOrientation="sensorLandscape" />
+137-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:110:13-56
+138        <activity
+138-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:111:9-113:59
+139            android:name="com.github.tvbox.osc.ui.activity.DxianluActivity"
+139-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:112:13-56
+140            android:screenOrientation="sensorLandscape" />
+140-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:113:13-56
+141
+142        <receiver android:name="com.github.tvbox.osc.receiver.SearchReceiver" >
+142-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:115:9-119:20
+142-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:115:19-58
+143            <intent-filter>
+143-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:116:13-118:29
+144                <action android:name="android.content.movie.search.Action" />
+144-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:117:17-78
+144-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:117:25-75
+145            </intent-filter>
+146        </receiver>
+147        <receiver android:name="com.github.tvbox.osc.receiver.CustomWebReceiver" >
+147-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:120:9-124:20
+147-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:120:19-61
+148            <intent-filter>
+148-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:121:13-123:29
+149                <action android:name="android.content.movie.custom.web.Action" />
+149-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:122:17-82
+149-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:122:25-79
+150            </intent-filter>
+151        </receiver>
+152
+153        <provider
+154            android:name="androidx.core.content.FileProvider"
+154-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:127:13-62
+155            android:authorities="com.tluo.cc.fileprovider"
+155-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:128:13-64
+156            android:exported="false"
+156-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:129:13-37
+157            android:grantUriPermissions="true" >
+157-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:130:13-47
+158            <meta-data
+158-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:131:13-133:54
+159                android:name="android.support.FILE_PROVIDER_PATHS"
+159-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:132:17-67
+160                android:resource="@xml/file_paths" />
+160-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:133:17-51
+161        </provider>
+162
+163        <meta-data
+163-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:136:9-138:36
+164            android:name="design_width_in_dp"
+164-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:137:13-46
+165            android:value="1280" />
+165-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:138:13-33
+166        <meta-data
+166-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:139:9-141:35
+167            android:name="design_height_in_dp"
+167-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:140:13-47
+168            android:value="720" />
+168-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:141:13-32
+169        <meta-data
+169-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:143:9-145:38
+170            android:name="xwalk_enable_download_mode"
+170-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:144:13-54
+171            android:value="enable" />
+171-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:145:13-35
+172        <meta-data
+172-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:146:9-148:39
+173            android:name="xwalk_verify"
+173-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:147:13-40
+174            android:value="disable" />
+174-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:148:13-36
+175
+176        <service
+176-->[androidx.room:room-runtime:2.5.2] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/58dac19c95712b4119ba08f73e735167/room-runtime-2.5.2/AndroidManifest.xml:24:9-28:63
+177            android:name="androidx.room.MultiInstanceInvalidationService"
+177-->[androidx.room:room-runtime:2.5.2] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/58dac19c95712b4119ba08f73e735167/room-runtime-2.5.2/AndroidManifest.xml:25:13-74
+178            android:directBootAware="true"
+178-->[androidx.room:room-runtime:2.5.2] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/58dac19c95712b4119ba08f73e735167/room-runtime-2.5.2/AndroidManifest.xml:26:13-43
+179            android:exported="false" />
+179-->[androidx.room:room-runtime:2.5.2] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/58dac19c95712b4119ba08f73e735167/room-runtime-2.5.2/AndroidManifest.xml:27:13-37
+180
+181        <provider
+181-->[com.squareup.picasso:picasso:2.71828] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/83ecdfa5863dfb4bafebf8d2c9ac022b/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+182            android:name="com.squareup.picasso.PicassoProvider"
+182-->[com.squareup.picasso:picasso:2.71828] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/83ecdfa5863dfb4bafebf8d2c9ac022b/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+183            android:authorities="com.tluo.cc.com.squareup.picasso"
+183-->[com.squareup.picasso:picasso:2.71828] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/83ecdfa5863dfb4bafebf8d2c9ac022b/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+184            android:exported="false" />
+184-->[com.squareup.picasso:picasso:2.71828] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/83ecdfa5863dfb4bafebf8d2c9ac022b/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+185
+186        <activity
+186-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:10:9-15:75
+187            android:name="com.blankj.utilcode.util.Utils$TransActivity"
+187-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:11:13-72
+188            android:configChanges="orientation|keyboardHidden|screenSize"
+188-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:12:13-74
+189            android:multiprocess="true"
+189-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:13:13-40
+190            android:theme="@style/ActivityTranslucent"
+190-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:14:13-55
+191            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+191-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:15:13-72
+192
+193        <provider
+193-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:17:9-26:20
+194            android:name="com.blankj.utilcode.util.Utils$FileProvider4UtilCode"
+194-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:18:13-80
+195            android:authorities="com.tluo.cc.utilcode.provider"
+195-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:19:13-69
+196            android:exported="false"
+196-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:20:13-37
+197            android:grantUriPermissions="true"
+197-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:21:13-47
+198            android:multiprocess="true" >
+198-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:22:13-40
+199            <meta-data
+199-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:131:13-133:54
+200                android:name="android.support.FILE_PROVIDER_PATHS"
+200-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:132:17-67
+201                android:resource="@xml/util_code_provider_paths" />
+201-->/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/src/main/AndroidManifest.xml:133:17-51
+202        </provider>
+203
+204        <service android:name="com.blankj.utilcode.util.MessengerUtils$ServerService" >
+204-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:28:9-32:19
+204-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:28:18-86
+205            <intent-filter>
+205-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:29:13-31:29
+206                <action android:name="com.tluo.cc.messenger" />
+206-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:30:17-69
+206-->[com.blankj:utilcodex:1.26.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/f2470cb5ed3ec28d117209b019b4afe6/jetified-utilcodex-1.26.0/AndroidManifest.xml:30:25-66
+207            </intent-filter>
+208        </service>
+209
+210        <provider
+210-->[me.jessyan:autosize:1.2.1] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/d04eaf6ce12887af8e36159a10f2b466/jetified-autosize-1.2.1/AndroidManifest.xml:12:9-16:43
+211            android:name="me.jessyan.autosize.InitProvider"
+211-->[me.jessyan:autosize:1.2.1] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/d04eaf6ce12887af8e36159a10f2b466/jetified-autosize-1.2.1/AndroidManifest.xml:13:13-60
+212            android:authorities="com.tluo.cc.autosize-init-provider"
+212-->[me.jessyan:autosize:1.2.1] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/d04eaf6ce12887af8e36159a10f2b466/jetified-autosize-1.2.1/AndroidManifest.xml:14:13-74
+213            android:exported="false"
+213-->[me.jessyan:autosize:1.2.1] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/d04eaf6ce12887af8e36159a10f2b466/jetified-autosize-1.2.1/AndroidManifest.xml:15:13-37
+214            android:multiprocess="true" />
+214-->[me.jessyan:autosize:1.2.1] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/d04eaf6ce12887af8e36159a10f2b466/jetified-autosize-1.2.1/AndroidManifest.xml:16:13-40
+215
+216        <activity
+216-->[com.github.hedzr:android-file-chooser:v1.2.0-final] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/63efa7abc0eedd35b827fec4b90d27c4/jetified-android-file-chooser-v1.2.0-final/AndroidManifest.xml:12:9-15:56
+217            android:name="com.obsez.android.lib.filechooser.permissions.PermissionActivity"
+217-->[com.github.hedzr:android-file-chooser:v1.2.0-final] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/63efa7abc0eedd35b827fec4b90d27c4/jetified-android-file-chooser-v1.2.0-final/AndroidManifest.xml:13:13-92
+218            android:label=""
+218-->[com.github.hedzr:android-file-chooser:v1.2.0-final] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/63efa7abc0eedd35b827fec4b90d27c4/jetified-android-file-chooser-v1.2.0-final/AndroidManifest.xml:14:13-29
+219            android:theme="@style/Theme.Transparent" />
+219-->[com.github.hedzr:android-file-chooser:v1.2.0-final] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/63efa7abc0eedd35b827fec4b90d27c4/jetified-android-file-chooser-v1.2.0-final/AndroidManifest.xml:15:13-53
+220
+221        <provider
+221-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/ceb7f0fe2d607fff9502a59dce3402dd/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+222            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+222-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/ceb7f0fe2d607fff9502a59dce3402dd/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+223            android:authorities="com.tluo.cc.lifecycle-process"
+223-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/ceb7f0fe2d607fff9502a59dce3402dd/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+224            android:exported="false"
+224-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/ceb7f0fe2d607fff9502a59dce3402dd/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+225            android:multiprocess="true" />
+225-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/xiezekai/.gradle/caches/transforms-2/files-2.1/ceb7f0fe2d607fff9502a59dce3402dd/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+226    </application>
+227
+228</manifest>

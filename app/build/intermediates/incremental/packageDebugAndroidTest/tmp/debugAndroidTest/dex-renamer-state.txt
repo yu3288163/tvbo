@@ -1,0 +1,4 @@
+#Mon Oct 23 08:30:40 CST 2023
+base.0=/Users/xiezekai/Desktop/20230616/播放器/1021/chatv/app/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
